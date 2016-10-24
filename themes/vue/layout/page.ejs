@@ -2,7 +2,6 @@
     <%- partial('partials/sidebar', { type: page.type, index: page.index }) %>
 <% } %>
 <div class="content <%- page.type ? page.type + ' with-sidebar' : '' %>">
-    <%- partial('partials/ad') %>
     <h1><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
     <%- page.content %>
     <% if (page.type === 'guide') { %>
@@ -17,7 +16,7 @@
     <% } %>
     <div class="footer">
       发现错误？想参与编辑？
-      <a href="https://github.com/vuejs/cn.vuejs.org/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank">
+      <a href="https://github.com/Lee2011/vue-archaeology/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank">
         在 Github 上编辑此页！
       </a>
     </div>

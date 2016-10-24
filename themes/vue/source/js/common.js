@@ -3,7 +3,6 @@
   initSearch()
   initMobileMenu()
   if (PAGE_TYPE) {
-    initVersionSelect()
     initSubHeaders()
   }
 
@@ -35,24 +34,6 @@
     document.body.addEventListener('click', function (e) {
       if (e.target !== menuButton && !sidebar.contains(e.target)) {
         sidebar.classList.remove('open')
-      }
-    })
-  }
-
-  /**
-   * Doc version select
-   */
-
-  function initVersionSelect () {
-    // version select
-    document.querySelector('.version-select').addEventListener('change', function (e) {
-      var version = e.target.value
-      if (version.indexOf('1.') !== 0) {
-        version = version.replace('.', '')
-        var section = window.location.pathname.match(/\/(\w+?)\//)[1]
-        window.location.assign('http://' + version + '.vuejs.org/' + section + '/')
-      } else {
-        // TODO when 1.x is out
       }
     })
   }
