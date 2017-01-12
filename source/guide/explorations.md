@@ -16,7 +16,7 @@ order: 4
 
 通过学习这60几行代码，我们可以相对比较容易的理解 Vue 最基本的思想。
 
-<iframe width="100%" height="300" src="//jsfiddle.net/lixinghua/858dLt9L/embedded/result,js,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="600" src="//jsfiddle.net/lixinghua/858dLt9L/embedded/result,js,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## 代码分析
 
@@ -24,8 +24,8 @@ order: 4
 
 ### 参考阅读
 
-* document.getElementById
-* innerHTML.replace
-* querySelectorAll
-* removeAttribute
-* Object.defineProperty
+* [document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+* [Element.innerHTML.replace](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+* [Element.querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll)
+* [Element.removeAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute)
+* [Object.defineProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
