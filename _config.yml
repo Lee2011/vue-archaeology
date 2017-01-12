@@ -70,3 +70,4 @@ theme: vue
 deploy:
   type: git
   repo: https://coding.net/u/lee2010/p/vuehistory/git
+  branch: coding-pages
